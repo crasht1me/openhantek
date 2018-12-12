@@ -12,6 +12,7 @@
 #include "scopesettings.h"
 #include "viewsettings.h"
 
+bool ConstantSample;
 /// \brief Holds the settings of the program.
 class DsoSettings {
   public:
