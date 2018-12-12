@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(OpenHantekProject)
 
-cmake_policy(SET CMP0072 NEW)
-
+# cmake_policy(SET CMP0072 NEW)
+set(OpenGL_GL_PREFERENCE GLVND)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Default build type
